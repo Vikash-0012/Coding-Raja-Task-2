@@ -1,0 +1,203 @@
+.music-player {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffffdb;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 120px;
+    background-image: url('musical-note.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    animation: spin 4s linear infinite;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  .album-cover {
+    width: 240px;
+    height: 240px;
+    background-image: url('Musical-Album-Set-Mockup-1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    
+    
+    
+    
+  }
+
+  
+  
+  .song-info h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .song-info p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #5471e6d3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #5bafe7;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  .lyrics-container {
+    max-height: 150px;
+    overflow: hidden;
+    margin-top: 20px;
+    border-top: 1px solid #fff0f0;
+    padding-top: 10px;
+  }
+  
+  .lyrics {
+    animation: slide 10s linear infinite;
+  }
+  
+  @keyframes slide {
+    from { transform: translateY(0%); }
+    to { transform: translateY(-100%); }
+  }
+  
+  body {
+    background-image: url(OIP.jpeg);}
+    
+  
+  .album-cover:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+  }
+  
+  
+  button:hover {
+    background-color: #4597a0;
+    
+  }
+
+  
+  
+
+ 
+  #volume-btn:hover {
+    color: #73a2f3;
+  }
+  
+  body {
+    background-image: url('music-4639_128.gif');
+    
+  }
+  
+  .music-player {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffffdb;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .music-player {
+        max-width: 600px;
+        margin: 50px auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .music-player {
+        max-width: 800px;
+        margin: 50px auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .music-player {
+        max-width: 1000px;
+        margin: 50px auto;
+    }
+}
+
+.music-player-container {
+    position: relative;
+    display: inline-block;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+}
+
+@keyframes moveInLine {
+    0% {
+      transform: translateX(0%);
+    }
+    40% {
+      transform: translateX(40%);
+    }
+  }
+  
+  .moving-text {
+    animation: moveInLine 5s linear infinite; 
+  }
+  
+  
+  @keyframes fireAnimation {
+    0% {
+      opacity: 0.2;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+  
+
+
+
+
+
